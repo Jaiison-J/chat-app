@@ -22,30 +22,35 @@ It allows multiple clients to connect to a server and chat in real time.
 ```sh
 git clone https://github.com/yourusername/chat-app.git
 cd chat-app
+'''
 
-2. Run the server
+### 2. Run the server
 Open a terminal and run:
 
+```sh
 python server.py
+'''
 
-3. Run the client(s)
+### 3. Run the client(s)
 Open one or more terminals and run:
 
+```sh
 python client.py
+'''
 
 Enter a nickname when prompted.
 
-4. Start chatting!
+### 4. Start chatting
 Type messages in any client window and see them appear in all others.
 
-Files
+### Files
 server.py — The chat server
 client.py — The chat client
 
-Requirements
+### Requirements
 Python 3.x (no external libraries needed)
 
-Example
+### Example
 
 [Terminal 1]
 Choose your nickname: Alice
